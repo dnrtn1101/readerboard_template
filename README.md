@@ -36,10 +36,8 @@
 ## 퍼블릭 랭킹
 
   
-- 중간 점수 집계(): Total Score가 업데이트 되었습니다.  
- - 다음 업데이트 일정은 최종 점수 집계(2021-03-08) 입니다.
-  
-**현재 랭킹 1위는 kideok 입니다. 평균 accuracy는 28.72% 입니다.**
+최종 점수 집계(): Total Score가 최종 업데이트 되었습니다.  
+**최종 랭킹 1위는 kideok 입니다. 평균 accuracy는 28.72% 입니다.**
 |Ranking|Name|Penalty|Accuracy(%)|Last Submission|Total Submission Count|Total Score(%)|
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |1|kideok|0|77.28|2021-03-01 14:45:48.343745+09:00|2|0.0|
