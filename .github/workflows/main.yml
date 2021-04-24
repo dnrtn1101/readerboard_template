@@ -24,9 +24,9 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.pat }}
         with:
-          public_repo: readerboard_template
-          public_name: hankyul2
-          public_author: consistant1y@ajou.ac.kr
+          public_repo: leaderboard_template
+          public_name: dnrtn1101
+          public_author: dnrtn1101@ajou.ac.kr
           private_repo: ${{ secrets.repo }}
           private_name: ${{ secrets.name }}
           private_author: ${{ secrets.author }}
