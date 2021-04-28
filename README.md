@@ -1,9 +1,10 @@
 # **기계학습 Challenge**
-1. **대회목표**: 한정된 파라미터를 이용해서 알려지지 않은 데이터셋의 인식 성능을 높여라!
+1. **대회목표**: skin cancer mnist 데이터셋을 활용하여 인식 성능을 높여라!
 
 2. **세부 프로토콜**
 
-   데이터셋: Skin Cancer MNIST: HAM10000(https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000), dataset 폴더를 통해 제공된 파일만을 사용해야함
+   데이터셋: Skin Cancer MNIST: HAM10000(https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000), 
+           **dataset 폴더를 통해 제공된 파일만을 사용해야함**
 
    아키텍쳐: 자유
 
