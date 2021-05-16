@@ -32,7 +32,7 @@ def encrypt_data(key_path, ans_list, encrypt_store_path='ans.json'):
     write_json(encrypt_store_path, {'iv': iv, 'ciphertext': ct})
 
 if __name__ == "__main__":
-    key_path = "key.pem"
+    key_path = "201723277.pem"
     raw_ans_path="ans.txt"
     ans=read_txt(raw_ans_path)
     encrypt_ans_path = "../submission/201723277/ans.json"
