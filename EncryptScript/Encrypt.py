@@ -11,7 +11,7 @@ def read_txt(fileName):
 
 
 def write_json(fileName, data):
-    with open(fileName, 'w', encoding='utf-8') as f:
+    with open(fileName, 'w') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
 
@@ -30,7 +30,6 @@ def encrypt_data(key_path, ans_list, encrypt_store_path='ans.json'):
     iv = b64encode(cipher.iv).decode('utf-8')
     ct = b64encode(ct_bytes).decode('utf-8')
     write_json(encrypt_store_path, {'iv': iv, 'ciphertext': ct})
-
 
 if __name__ == "__main__":
     # 1.이메일을 통해서 전달 받은 키 파일의 경로 입력
