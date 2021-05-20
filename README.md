@@ -35,7 +35,7 @@
 
   
 - Total Score가 아직 업데이트되지 않았습니다. 
- - 다음 업데이트 일정은 최종 점수 집계(2021-06-11) 입니다.
+ - 다음 업데이트 일정은 최종 점수 집계(2021-06-10) 입니다.
   
 **현재 랭킹 1위는 201623290 입니다. 평균 f1 score는 30.52% 입니다.**
 |Ranking|Name|Penalty|Accuracy(%)|F1 score|Last Submission|Total Submission Count|Total Score(%)|
