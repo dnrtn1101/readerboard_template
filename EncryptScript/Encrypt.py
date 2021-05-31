@@ -36,7 +36,11 @@ def encrypt_data(key_path, ans_list, encrypt_store_path='ans.json'):
 if __name__ == "__main__":
     # 1.이메일을 통해서 전달 받은 키 파일의 경로 입력
 
+<<<<<<< HEAD
     key_path = "201620934.pem"
+=======
+    key_path = "201720813.pem"
+>>>>>>> 34369b03a4f92f4837a14e3e099396b616b87f74
 
     # 2. 예측한 결과를 텍스트 파일로 저장했을 경우 리스트로 다시 불러오기
     # 본인이 원하는 방식으로 리스트 형태로 예측 값을 불러오기만 하면 됨(순서를 지킬것)
@@ -45,7 +49,11 @@ if __name__ == "__main__":
     
     # 3. 암호화된 파일을 저장할 위치
 
+<<<<<<< HEAD
     encrypt_ans_path = "../submission/201620934/ans.json"
+=======
+    encrypt_ans_path = "../submission/201720813/ans.json"
+>>>>>>> 34369b03a4f92f4837a14e3e099396b616b87f74
 
     # 4. 암호화!(pycrytodome 설치)
     encrypt_data(key_path, ans, encrypt_ans_path)
