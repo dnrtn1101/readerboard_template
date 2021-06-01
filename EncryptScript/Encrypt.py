@@ -37,7 +37,7 @@ if __name__ == "__main__":
     # 1.이메일을 통해서 전달 받은 키 파일의 경로 입력
 
 
-    key_path = "201720803.pem"
+    key_path = "201720804.pem"
 
 
 
@@ -49,7 +49,7 @@ if __name__ == "__main__":
     # 3. 암호화된 파일을 저장할 위치
 
 
-    encrypt_ans_path = "../submission/201720803/ans.json"
+    encrypt_ans_path = "../submission/201720804/ans.json"
 
 
     # 4. 암호화!(pycrytodome 설치)
