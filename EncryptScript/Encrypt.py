@@ -46,7 +46,7 @@ if __name__ == "__main__":
     # 3. 암호화된 파일을 저장할 위치
 
 
-    encrypt_ans_path = "../submission/201720803/ans.json"
+    encrypt_ans_path = "../submission/201720806/ans.json"
 
     # 4. 암호화!(pycrytodome 설치)
     encrypt_data(key_path, ans, encrypt_ans_path)
