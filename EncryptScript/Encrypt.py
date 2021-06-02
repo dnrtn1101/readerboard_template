@@ -38,7 +38,6 @@ if __name__ == "__main__":
 
     key_path = "key.pem"
 
-
     # 2. 예측한 결과를 텍스트 파일로 저장했을 경우 리스트로 다시 불러오기
     # 본인이 원하는 방식으로 리스트 형태로 예측 값을 불러오기만 하면 됨(순서를 지킬것)
     raw_ans_path = "../../../HW6/ans.txt"
@@ -47,7 +46,7 @@ if __name__ == "__main__":
     # 3. 암호화된 파일을 저장할 위치
 
 
-    encrypt_ans_path = "../submission/201720806/ans.json"
+    encrypt_ans_path = "../submission/201720803/ans.json"
 
     # 4. 암호화!(pycrytodome 설치)
     encrypt_data(key_path, ans, encrypt_ans_path)
