@@ -47,6 +47,5 @@ if __name__ == "__main__":
 
     encrypt_ans_path = "../submission/201620934/ans.json"
 
-
     # 4. 암호화!(pycrytodome 설치)
     encrypt_data(key_path, ans, encrypt_ans_path)# -*- coding: utf-8 -*-
