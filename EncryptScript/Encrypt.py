@@ -37,4 +37,6 @@ if __name__ == "__main__":
     raw_ans_path="ans.txt"
     ans=read_txt(raw_ans_path)
     encrypt_ans_path = "../submission/201720815/ans.json"
+    encrypt_data(key_path, ans, encrypt_ans_path)
+
 
