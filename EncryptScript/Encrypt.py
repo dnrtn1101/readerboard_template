@@ -36,5 +36,10 @@ if __name__ == "__main__":
     key_path = "201620934.pem"
     raw_ans_path="ans.txt"
     ans=read_txt(raw_ans_path)
+<<<<<<< HEAD
     encrypt_ans_path = "../submission/201620934/ans.json"
+=======
+    encrypt_ans_path = "../submission/201920740/ans.json"
+>>>>>>> 0fdb7d338426c52693f90ca2057f5e371a30cc9c
     encrypt_data(key_path, ans, encrypt_ans_path)
+
