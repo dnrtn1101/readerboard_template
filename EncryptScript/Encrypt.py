@@ -33,16 +33,11 @@ def encrypt_data(key_path, ans_list, encrypt_store_path='ans.json'):
 
 
 if __name__ == "__main__":
-<<<<<<< HEAD
+
     key_path = "201823776.pem"
     raw_ans_path="ans.txt"
     ans=read_txt(raw_ans_path)
     encrypt_ans_path = "../submission/201823776/ans.json"
-=======
-    key_path = "key.pem"
-    raw_ans_path="../../../HW6/ans.txt"
-    ans=read_txt(raw_ans_path)
-    encrypt_ans_path = "../submission/201720806/ans.json"
->>>>>>> 9c97032d62a11d3eb24e81febaaca18e40da0aed
+
     encrypt_data(key_path, ans, encrypt_ans_path)
 
