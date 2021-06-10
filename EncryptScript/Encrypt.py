@@ -36,7 +36,7 @@ if __name__ == "__main__":
 
     
     key_path = "201920747.pem"
-    raw_ans_path="ans4.txt"
+    raw_ans_path="ans1-1.txt"
     ans=read_txt(raw_ans_path)
     encrypt_ans_path = "../submission/201920747/ans.json"
 
