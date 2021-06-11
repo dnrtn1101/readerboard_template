@@ -33,9 +33,8 @@ def encrypt_data(key_path, ans_list, encrypt_store_path='ans.json'):
 
 
 if __name__ == "__main__":
-    key_path = "201920721.pem"
+    key_path = "201921085.pem"
     raw_ans_path="ans.txt"
     ans=read_txt(raw_ans_path)
-    encrypt_ans_path = "../submission/201920721/ans.json"
-    # 4. 암호화!(pycrytodome 설치)
+    encrypt_ans_path = "../submission/201921085/ans.json"
     encrypt_data(key_path, ans, encrypt_ans_path)
