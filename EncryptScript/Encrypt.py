@@ -31,6 +31,7 @@ def encrypt_data(key_path, ans_list, encrypt_store_path='ans.json'):
     ct = b64encode(ct_bytes).decode('utf-8')
     write_json(encrypt_store_path, {'iv': iv, 'ciphertext': ct})
 
+<<<<<<< HEAD
 if __name__=="__main__":
     # 1.이메일을 통해서 전달 받은 키 파일의 경로 입력
     key_path = "201823776.pem"
@@ -40,4 +41,12 @@ if __name__=="__main__":
     ans = read_txt(raw_ans_path)
     # 3. 암호화된 파일을 저장할 위치
     encrypt_ans_path = "../submission/201823776/ans.json"
+=======
+>>>>>>> 11a1f794f4400d496bed81bd86e7ae7ae15c2f9f
 
+if __name__ == "__main__":
+    key_path = "201921085.pem"
+    raw_ans_path="ans.txt"
+    ans=read_txt(raw_ans_path)
+    encrypt_ans_path = "../submission/201921085/ans.json"
+    encrypt_data(key_path, ans, encrypt_ans_path)
