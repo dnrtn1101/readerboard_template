@@ -11,7 +11,7 @@ def read_txt(fileName):
 
 
 def write_json(fileName, data):
-    with open(fileName, 'w', encoding='utf-8') as f:
+    with open(fileName, 'w') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
 
