@@ -31,21 +31,9 @@ def encrypt_data(key_path, ans_list, encrypt_store_path='ans.json'):
     ct = b64encode(ct_bytes).decode('utf-8')
     write_json(encrypt_store_path, {'iv': iv, 'ciphertext': ct})
 
-
 if __name__ == "__main__":
-
-    key_path = "201720809.pem"
-
-    raw_ans_path = "ans.txt"
-    ans = read_txt(raw_ans_path)
-
-    
-<<<<<<< HEAD
-    encrypt_ans_path = "../submission/201720804/ans.json"
-=======
-    encrypt_ans_path = "../submission/201720809/ans.json"
->>>>>>> e50c4631ad166f0eb76e029633eec27690a1829a
-
-
+    key_path = "key.pem"
+    raw_ans_path="ans.txt"
+    ans=read_txt(raw_ans_path)
+    encrypt_ans_path = "../submission/201920740/ans.json"
     encrypt_data(key_path, ans, encrypt_ans_path)
-
