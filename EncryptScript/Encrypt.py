@@ -32,6 +32,7 @@ def encrypt_data(key_path, ans_list, encrypt_store_path='ans.json'):
     write_json(encrypt_store_path, {'iv': iv, 'ciphertext': ct})
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 if __name__=="__main__":
@@ -56,4 +57,11 @@ if __name__ == "__main__":
 =======
     encrypt_ans_path = "../submission/201720157/ans.json"
 >>>>>>> 1f54233d2a780dcd30f6c2c2cdb18188e1b8f8a9
+=======
+if __name__=="__main__":
+    key_path = "201920747.pem"
+    raw_ans_path="ans2-4.txt"
+    ans=read_txt(raw_ans_path)
+    encrypt_ans_path = "../submission/201920747/ans.json"
+>>>>>>> 72e48eeceb628f2c385a29113164e20b98962841
     encrypt_data(key_path, ans, encrypt_ans_path)
