@@ -32,7 +32,8 @@ def encrypt_data(key_path, ans_list, encrypt_store_path='ans.json'):
     write_json(encrypt_store_path, {'iv': iv, 'ciphertext': ct})
 
 
-if __name__ == "__main__":
+
+if __name__=="__main__":
     # 1.이메일을 통해서 전달 받은 키 파일의 경로 입력
     key_path = "key.pem"
     # 2. 예측한 결과를 텍스트 파일로 저장했을 경우 리스트로 다시 불러오기
