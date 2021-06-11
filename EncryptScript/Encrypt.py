@@ -33,10 +33,11 @@ def encrypt_data(key_path, ans_list, encrypt_store_path='ans.json'):
 
 
 if __name__ == "__main__":
-    key_path = "201920762.pem"
+    key_path = "201920721.pem"
     raw_ans_path="ans.txt"
     ans=read_txt(raw_ans_path)
-    encrypt_ans_path = "../submission/201920762/ans.json"
+    encrypt_ans_path = "../submission/201920721/ans.json"
+    encrypt_data(key_path, ans, encrypt_ans_path)
 
 
     # 1.이메일을 통해서 전달 받은 키 파일의 경로 입력
@@ -49,9 +50,4 @@ if __name__ == "__main__":
 
 
     # 4. 암호화!(pycrytodome 설치)
-
-   
-
-
-    encrypt_data(key_path, ans, encrypt_ans_path)
 
