@@ -29,7 +29,6 @@ def encrypt_data(key_path, ans_list, encrypt_store_path='ans.json'):
     ct_bytes = cipher.encrypt(pad(encode_data, AES.block_size))
     iv = b64encode(cipher.iv).decode('utf-8')
     ct = b64encode(ct_bytes).decode('utf-8')
-<<<<<<< HEAD
     write_json(encrypt_store_path, {'iv': iv, 'ciphertext': ct})
 
 
