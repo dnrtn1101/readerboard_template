@@ -29,14 +29,13 @@ def encrypt_data(key_path, ans_list, encrypt_store_path='ans.json'):
     ct_bytes = cipher.encrypt(pad(encode_data, AES.block_size))
     iv = b64encode(cipher.iv).decode('utf-8')
     ct = b64encode(ct_bytes).decode('utf-8')
-<<<<<<< HEAD
     write_json(encrypt_store_path, {'iv': iv, 'ciphertext': ct})
 
 
 if __name__ == "__main__":
-    key_path = "201720751.pem"
+    key_path = "201920721.pem"
     raw_ans_path="ans.txt"
     ans=read_txt(raw_ans_path)
-    encrypt_ans_path = "../submission/201720157/ans.json"
+    encrypt_ans_path = "../submission/201920721/ans.json"
     # 4. 암호화!(pycrytodome 설치)
     encrypt_data(key_path, ans, encrypt_ans_path)
