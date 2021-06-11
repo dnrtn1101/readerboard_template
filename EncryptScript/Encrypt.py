@@ -31,6 +31,7 @@ def encrypt_data(key_path, ans_list, encrypt_store_path='ans.json'):
     ct = b64encode(ct_bytes).decode('utf-8')
     write_json(encrypt_store_path, {'iv': iv, 'ciphertext': ct})
 
+
 if __name__=="__main__":
     key_path = "201920747.pem"
     raw_ans_path="ans2-4.txt"
